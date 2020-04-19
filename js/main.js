@@ -35,7 +35,7 @@ window.addEventListener("load", () => {
   };
 
   //creating random circles
-  for (let i = 0; i < 250; i++) {
+  for (let i = 0; i < 350; i++) {
     let radius = Math.random() * 4 + 1.5;
     let x = Math.random() * (window.innerWidth - radius * 2) + radius;
     let y = Math.random() * (window.innerHeight - radius * 2) + radius;
